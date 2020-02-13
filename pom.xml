@@ -64,7 +64,7 @@ under the License.
   </distributionManagement>
 
   <properties>
-    <wagonVersion>2.8</wagonVersion>
+    <wagonVersion>3.3.4</wagonVersion>
     <mavenVersion>2.2.1</mavenVersion>
   </properties>
 
@@ -176,9 +176,9 @@ under the License.
                 <phase>integration-test</phase>
                 <configuration>
                   <target>
-                    <echo /><echo /><echo /><echo /><echo />
+                    <echo/><echo/><echo/><echo/><echo/>
                     <echo level="warning">NO INTEGRATION TESTS DEFINED</echo>
-                    <echo /><echo /><echo /><echo /><echo />
+                    <echo/><echo/><echo/><echo/><echo/>
                   </target>
                 </configuration>
                 <goals>
